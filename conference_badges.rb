@@ -20,6 +20,7 @@ end
 
 
 def printer(attendees)
+  attendees.each { |lines| puts lines }
 
 end
   
