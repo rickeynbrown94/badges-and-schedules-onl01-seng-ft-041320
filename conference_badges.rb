@@ -20,7 +20,7 @@ end
 
 
 def printer(attendees)
-  attendees.each{ |lines| puts batch_badge_creator(lines) }
+  puts batch_badge_creator(attendees)
 
 end
   
