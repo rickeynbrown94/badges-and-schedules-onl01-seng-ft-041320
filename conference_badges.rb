@@ -11,3 +11,5 @@ end
 
 
 def assign_rooms(attendees)
+  room_assignments = ""
+  attendees.each { |person| "Hello #{person}! You'll be assigned to room "
